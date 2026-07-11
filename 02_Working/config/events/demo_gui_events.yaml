@@ -1,0 +1,140 @@
+global:
+  time_mode: relative
+  enable_gui_visualization: true
+  enable_vehicle_coloring: true
+  enable_metrics_logging: true
+  output_dir: ../03_Outputs/events
+  restore_on_end: true
+  auto_correct_unrealistic_times: true
+
+metrics:
+  interval: 5
+  edge_congestion_speed_threshold: 3.0
+  phenomenon_check_interval: 5
+  phenomenon_speed_threshold: 8.0
+  phenomenon_min_vehicles: 3
+  console_metrics: false
+
+scenario:
+  name: demo_gui_events
+  description: "广州城区 SUMO GUI 实时事件注入演示"
+
+events:
+  - event_id: morning_peak_001
+    event_type: rush_hour
+    name: 早高峰
+    start_time: 1800
+    end_time: 9000
+    severity: 0.70
+    target_edges: []
+    radius: 120
+    visual:
+      color: [255, 80, 60, 130]
+      fill: false
+    effects:
+      peak_type: morning
+      origin_edges: []
+      destination_edges: []
+      spawn_interval: 6
+      spawn_batch: 1
+      max_spawn_count: 1200
+      vehicle_type: commuter
+      vehicle_prefix: morning_peak
+      vehicle_color: [255, 80, 60, 255]
+
+  - event_id: concert_001
+    event_type: concert
+    name: 演唱会
+    start_time: 41400
+    end_time: 57600
+    severity: 0.80
+    target_edges: []
+    radius: 100
+    visual:
+      color: [180, 80, 255, 140]
+      fill: false
+    effects:
+      speed_factor: 0.65
+      performance_start_clock: "19:30"
+      outbound_phase_ratio: 0.78
+      spawn_interval: 20
+      spawn_batch: 2
+      inbound_max_count: 600
+      outbound_max_count: 360
+      max_spawn_count: 960
+      vehicle_type: event_vehicle
+      vehicle_prefix: concert
+      vehicle_color: [180, 80, 255, 255]
+
+  - event_id: construction_001
+    event_type: construction
+    name: 道路施工
+    start_time: 9000
+    end_time: 19800
+    severity: 0.90
+    target_edges: []
+    target_lanes: []
+    radius: 60
+    visual:
+      color: [255, 165, 0, 175]
+      fill: false
+    effects:
+      close_lanes: true
+      closure_mode: capacity_drop
+      closure_speed: 0.5
+      reduce_speed: true
+      speed_factor: 0.45
+      enable_reroute: true
+      reroute_interval: 60
+      max_reroute_per_interval: 5
+      inject_approach_demand: true
+      spawn_interval: 5
+      spawn_batch: 2
+      max_spawn_count: 2400
+      vehicle_type: construction_traffic
+      vehicle_prefix: construction_flow
+      propagation_hops: 4
+      max_impact_edges: 24
+      propagation_speed_factors: [0.60, 0.70, 0.80, 0.90]
+      vehicle_color: [255, 165, 0, 255]
+
+  - event_id: typhoon_001
+    event_type: weather
+    name: 台风天气
+    start_time: 27000
+    end_time: 34200
+    severity: 0.95
+    target_edges: []
+    radius: 180
+    visual:
+      color: [20, 40, 180, 115]
+      fill: false
+    effects:
+      weather_type: typhoon
+      reduce_speed: true
+      speed_factor: 0.45
+      increase_headway: true
+      partial_closure: true
+      vehicle_color: [20, 40, 180, 255]
+
+  - event_id: evening_peak_001
+    event_type: rush_hour
+    name: 晚高峰
+    start_time: 37800
+    end_time: 45000
+    severity: 0.75
+    target_edges: []
+    radius: 120
+    visual:
+      color: [220, 40, 40, 130]
+      fill: false
+    effects:
+      peak_type: evening
+      origin_edges: []
+      destination_edges: []
+      spawn_interval: 6
+      spawn_batch: 1
+      max_spawn_count: 1200
+      vehicle_type: commuter
+      vehicle_prefix: evening_peak
+      vehicle_color: [220, 40, 40, 255]

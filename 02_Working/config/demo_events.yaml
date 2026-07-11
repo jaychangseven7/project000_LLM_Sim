@@ -1,0 +1,18 @@
+events:
+  - event_id: accident_evening_peak
+    type: accident
+    start_time: 63900
+    end_time: 70200
+    affected_edges: []
+    auto_select_main_edge: true
+    severity: high
+    speed_limit: 2.0
+    description: "晚高峰主干道事故"
+  - event_id: large_event_dismissal
+    type: large_event
+    start_time: 72000
+    end_time: 75600
+    target_zone: event_zone
+    vehicle_count: 250
+    vehicle_type: event_vehicle
+    description: "大型活动散场，短时间新增大量车辆"

@@ -1,0 +1,10 @@
+events:
+- event_id: accident_64800
+  type: accident
+  start_time: 64800
+  end_time: 67500
+  affected_edges:
+  - '442010287'
+  severity: high
+  description: 18:00 晚高峰主干路发生严重事故，持续45分钟
+  speed_limit: 2.0

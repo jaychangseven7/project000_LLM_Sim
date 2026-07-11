@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime outputs and logs
+03_Outputs/
+04_Logs/*.log
+*.log
+
+# SUMO / simulation transient files
+*.tmp
+*.bak
+*.rou.alt.xml.tmp
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

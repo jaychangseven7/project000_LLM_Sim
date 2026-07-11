@@ -1,0 +1,11 @@
+events:
+- event_id: large_event_72000
+  type: large_event
+  start_time: 72000
+  end_time: 74700
+  affected_edges: []
+  severity: medium
+  description: 20:00 体育活动散场，新增300辆车
+  target_zone: event_zone
+  vehicle_count: 300
+  vehicle_type: event_vehicle

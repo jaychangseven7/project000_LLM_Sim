@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <poi id="agent_marker_01_cluster_4416227811_4416227836" type="IntersectionAgent" x="2390.06" y="2623.20" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_01_cluster_4416227811_4416227836" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="2390.06,2615.20 2398.06,2623.20 2390.06,2631.20 2382.06,2623.20 2390.06,2615.20" />
+  <poi id="agent_marker_02_cluster_3412148396_9817322557" type="IntersectionAgent" x="3716.74" y="2513.25" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_02_cluster_3412148396_9817322557" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="3716.74,2505.25 3724.74,2513.25 3716.74,2521.25 3708.74,2513.25 3716.74,2505.25" />
+  <poi id="agent_marker_03_cluster_4419070748_4575302669_6742487500_6742487501" type="IntersectionAgent" x="2738.60" y="2575.75" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_03_cluster_4419070748_4575302669_6742487500_6742487501" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="2738.60,2567.75 2746.60,2575.75 2738.60,2583.75 2730.60,2575.75 2738.60,2567.75" />
+  <poi id="agent_marker_04_cluster_10891413432_10891413436_12725755190_12725755192_#5more" type="IntersectionAgent" x="3707.09" y="3015.49" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_04_cluster_10891413432_10891413436_12725755190_12725755192_#5more" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="3707.09,3007.49 3715.09,3015.49 3707.09,3023.49 3699.09,3015.49 3707.09,3007.49" />
+  <poi id="agent_marker_05_cluster_10752177345_10752177347_4475331980" type="IntersectionAgent" x="4324.36" y="2465.64" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_05_cluster_10752177345_10752177347_4475331980" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="4324.36,2457.64 4332.36,2465.64 4324.36,2473.64 4316.36,2465.64 4324.36,2457.64" />
+  <poi id="agent_marker_06_5598609761" type="IntersectionAgent" x="2391.99" y="3363.11" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_06_5598609761" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="2391.99,3355.11 2399.99,3363.11 2391.99,3371.11 2383.99,3363.11 2391.99,3355.11" />
+  <poi id="agent_marker_07_2550885346" type="IntersectionAgent" x="2407.81" y="2188.79" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_07_2550885346" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="2407.81,2180.79 2415.81,2188.79 2407.81,2196.79 2399.81,2188.79 2407.81,2180.79" />
+  <poi id="agent_marker_08_cluster_12728504439_4504141783_4575367455_6594497821" type="IntersectionAgent" x="2747.76" y="3094.01" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_08_cluster_12728504439_4504141783_4575367455_6594497821" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="2747.76,3086.01 2755.76,3094.01 2747.76,3102.01 2739.76,3094.01 2747.76,3086.01" />
+  <poi id="agent_marker_09_cluster_3011230475_4417326362" type="IntersectionAgent" x="5295.45" y="2422.88" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_09_cluster_3011230475_4417326362" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="5295.45,2414.88 5303.45,2422.88 5295.45,2430.88 5287.45,2422.88 5295.45,2414.88" />
+  <poi id="agent_marker_10_cluster_1952510867_5065493500" type="IntersectionAgent" x="2745.11" y="1985.69" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_10_cluster_1952510867_5065493500" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="2745.11,1977.69 2753.11,1985.69 2745.11,1993.69 2737.11,1985.69 2745.11,1977.69" />
+  <poi id="agent_marker_11_12300696165" type="IntersectionAgent" x="4546.07" y="858.56" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_11_12300696165" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="4546.07,850.56 4554.07,858.56 4546.07,866.56 4538.07,858.56 4546.07,850.56" />
+  <poi id="agent_marker_12_cluster_10891310150_10891310153_10891310154_10891310156_#2more" type="IntersectionAgent" x="3712.15" y="3480.70" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_12_cluster_10891310150_10891310153_10891310154_10891310156_#2more" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="3712.15,3472.70 3720.15,3480.70 3712.15,3488.70 3704.15,3480.70 3712.15,3472.70" />
+  <poi id="agent_marker_13_943242167" type="IntersectionAgent" x="4785.36" y="2433.36" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_13_943242167" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="4785.36,2425.36 4793.36,2433.36 4785.36,2441.36 4777.36,2433.36 4785.36,2425.36" />
+  <poi id="agent_marker_14_cluster_4272738393_5289232531" type="IntersectionAgent" x="5360.51" y="858.29" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_14_cluster_4272738393_5289232531" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="5360.51,850.29 5368.51,858.29 5360.51,866.29 5352.51,858.29 5360.51,850.29" />
+  <poi id="agent_marker_15_cluster_10891413492_10891413494_2507456021" type="IntersectionAgent" x="4003.50" y="2741.94" color="0,180,255" layer="250" width="4" height="4" />
+  <poly id="agent_box_15_cluster_10891413492_10891413494_2507456021" type="IntersectionAgent" color="0,180,255" fill="false" layer="249" lineWidth="2" shape="4003.50,2733.94 4011.50,2741.94 4003.50,2749.94 3995.50,2741.94 4003.50,2733.94" />
+</additional>

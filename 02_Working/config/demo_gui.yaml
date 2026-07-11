@@ -1,0 +1,77 @@
+simulation:
+  begin_time: 23400
+  end_time: 82800
+  step_length: 1.0
+  gui: true
+  gui_delay: 20
+  auto_start: true
+  quit_on_end: false
+
+demo:
+  num_drivers: 1000
+  scenario: event_demo
+  random_seed: 42
+  show_console_logs: true
+  highlight_rerouted_vehicles: true
+  pause_on_event: true
+  event_pause_seconds: 2
+
+map:
+  name: demo_city
+  city_label: "广州珠江新城/天河 CBD"
+  net_file: data/maps/demo_city/demo_city.net.xml
+  route_file: data/maps/demo_city/demo_city.rou.xml
+  trip_file: data/maps/demo_city/demo_city.trips.xml
+  sumocfg_file: data/maps/demo_city/demo_city.sumocfg
+  additional_file: data/maps/demo_city/demo_city.add.xml
+  poly_file: data/maps/demo_city/demo_city.poly.xml
+  osm_file: data/maps/demo_city/source/demo_city.osm.xml
+  download_if_missing: true
+  visual_layers: true
+  bbox:
+    west: 113.305
+    south: 23.105
+    east: 113.340
+    north: 23.132
+
+activity:
+  generate_if_missing: true
+  profile_file: data/demo/driver_profiles.csv
+  activity_chain_file: data/demo/activity_chains.json
+  trips_file: data/demo/demo_trips.csv
+
+agents:
+  use_intersection_agents: true
+  decision_interval: 300
+  queue_threshold: 15
+  speed_threshold: 4.0
+  max_controlled_intersections: 15
+  policy_model: neural_hub
+  log_all_decisions: true
+  neural_action_threshold: 0.55
+  neighbor_radius_meters: 900
+  selection_strategy: hub_flow
+  min_incoming_edges: 2
+  min_outgoing_edges: 2
+  min_agent_spacing_meters: 350
+  selection_weights:
+    route_flow: 0.45
+    complexity: 0.45
+    major_edges: 8.0
+    degree: 2.0
+  manual_intersection_ids: []
+  monitor_start_time: 28800
+  show_gui_markers: true
+  marker_color: "0,180,255"
+  marker_size: 16
+  marker_line_width: 2
+  marker_poi_size: 4
+
+events:
+  use_events: true
+  event_file: config/demo_events.yaml
+
+routing:
+  use_rerouting: true
+  rerouting_interval: 300
+  max_rerouted_vehicles_per_interval: 80

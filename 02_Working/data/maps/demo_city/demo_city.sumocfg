@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+  <input>
+    <net-file value="D:\Workspace\project000_LLM_Sim\02_Working\data\maps\demo_city\demo_city.net.xml" />
+    <route-files value="D:\Workspace\project000_LLM_Sim\02_Working\data\maps\demo_city\demo_city.rou.xml" />
+    <additional-files value="D:\Workspace\project000_LLM_Sim\02_Working\data\maps\demo_city\demo_city.add.xml,D:\Workspace\project000_LLM_Sim\02_Working\data\maps\demo_city\demo_city.poly.xml" />
+  </input>
+  <time>
+    <begin value="23400" />
+    <end value="82800" />
+    <step-length value="1.0" />
+  </time>
+  <gui_only>
+    <start value="true" />
+    <delay value="20" />
+  </gui_only>
+</configuration>
